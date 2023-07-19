@@ -306,15 +306,10 @@
     height: 40px;
     margin: 15px;
     background: white;
+}
 
-}
-.button-list button p{
-    display: inline-block;
-    text-align: center;
-    margin: 0 auto;
-}
 .button-list button img{
-    width: 40px;
+    width: 30px;
     padding: 6px;
 }
 
@@ -340,12 +335,15 @@ footer img{
 
 .footer-list li{
     list-style: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .footer-list li a{
    color: white;
     text-decoration: none;
     padding: 10px 20px;
+    font-size: 14px;
 }
 
 footer .img-group{
@@ -357,7 +355,7 @@ footer .img-group{
 }
 
 footer .img-group img{
-    width: 30px;
+    width: 28px;
 }
  #gray{
     color: rgba(255, 255, 255, 0.60);
