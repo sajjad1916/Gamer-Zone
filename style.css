@@ -1,0 +1,364 @@
+/* -------------------------------- Common css ----------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 10%;
+}
+
+.funney {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.button {
+  display: inline-flex;
+  padding: 11px 20px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 48px;
+  border: none;
+  color: white;
+}
+
+.pink {
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo img {
+  height: 30px;
+  width: 50px;
+}
+
+.logo h1 {
+  font-size: 30px;
+  margin: 0 10px;
+}
+
+.navigation ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.navigation ul li {
+  margin: 0 10px;
+  height: 30px;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: black;
+}
+.navigation ul li button{
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 150px;
+    display: flex;
+    gap: 10px;
+    background: rgba(11, 2, 35, 0.10);
+    
+}
+.navigation ul li button img{
+    width: 20px;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.hero img {
+  width: 450px;
+}
+
+.hero-left h1 {
+  text-align: center;
+  font-size: 55px;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-left h2 {
+  color: #0b0223;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.hero-left p {
+  margin: 10px 0;
+}
+
+.hero-left .blue {
+  background-color: #4ec5f7;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.about img {
+  width: 450px;
+}
+
+.about-right {
+  width: 400px;
+  text-align: right;
+}
+
+.about-right h1 {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
+}
+
+.about-right p {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.about-right .bold {
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.online-games{
+    margin: 70px 0;
+}
+
+.online-games h1 {
+  text-align: center;
+  color: #0b0223;
+  font-family: Work Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 40px;
+}
+
+.online-games .funney {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.online-games p {
+  text-align: center;
+  font-size: 14px;
+    margin: 20px 0;
+}
+
+.online-games .carts {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.online-games .cart {
+  width: 230px;
+}
+
+.online-games .cart img {
+  width: 100%;
+}
+
+.play-instantly {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 250px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.play-instantly .play-left h1 {
+  text-align: right;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.play-instantly .play-left p {
+  color: #534c64;
+  text-align: right;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  width: 180px;
+  margin: 10px 0;
+}
+
+.play-instantly .play-right {
+  position: relative;
+}
+
+.play-instantly .play-right .big-img {
+  width: 400px;
+  height: 450px;
+}
+
+.play-instantly .play-right .small-img {
+  width: 168px;
+  height: 200px;
+  position: absolute;
+  top: 289px;
+  right: 295px;
+}
+
+.careers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  padding: 0 0 0 10%;
+  margin: 5% 0;
+  gap: 60px ;
+}
+
+.careers .careers-left {
+  width: 550px;
+  color: white;
+}
+.careers .careers-left h1 {
+  font-size: 34px;
+  line-height: 30px;
+}
+.careers .careers-left p {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.careers .careers-left ul li {
+  padding: 3px 0;
+}
+
+.careers .careers-left .first {
+  display: inline-block;
+  list-style: none;
+}
+
+.careers .careers-left .second {
+  display: inline-block;
+  text-align: right;
+  list-style: none;
+}
+
+.careers .careers-left button {
+  color:  #FF42A5;
+  margin: 25px 0;
+}
+
+.careers img {
+  width: 600px;
+}
+
+.button-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-list button{
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    margin: 15px;
+    background: white;
+
+}
+.button-list button p{
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+}
+.button-list button img{
+    width: 40px;
+    padding: 6px;
+}
+
+footer{
+    text-align: center;
+    margin-top:40px ;
+    background: #0B0223;
+    color: white;
+    padding: 60px 20px;
+}
+
+footer img{
+        height: 30px;
+        width: 50px;
+}
+
+.footer-list{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 20px 10px;
+}
+
+.footer-list li{
+    list-style: none;
+}
+
+.footer-list li a{
+   color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+footer .img-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+footer .img-group img{
+    width: 30px;
+}
+ #gray{
+    color: rgba(255, 255, 255, 0.60);
+ }
